@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Cards</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="head">
+        <div class="lefthead">
+            <img src="Logo.png" alt="EduPro Logo" class="logo">
+            <div class="select">
+                <div class="dropdown-wrapper">
+                    <div class="dropdown-trigger">
+                        <p>Create</p>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="createsvg" id="createsvg">
+                            <path d="M7 10L12 15L17 10" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li>Create a Quiz</li>
+                        <li>Create a Flashcard</li>
+                        <li>Create MCQ</li>
+                        <li>Create Notes</li>+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="righthead">
+            <button class="authentication login">Login</button>
+            <button class="authentication signup">Signup</button>
+            <div class="colormode">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="day">
+                    <circle cx="15" cy="15" r="6" fill="currentColor" />
+                    <line x1="15" y1="1" x2="15" y2="4" />
+                    <line x1="15" y1="26" x2="15" y2="29" />
+                    <line x1="4.4" y1="4.4" x2="6.5" y2="6.5" />
+                    <line x1="23.5" y1="23.5" x2="25.6" y2="25.6" />
+                    <line x1="1" y1="15" x2="4" y2="15" />
+                    <line x1="26" y1="15" x2="29" y2="15" />
+                    <line x1="4.4" y1="25.6" x2="6.5" y2="23.5" />
+                    <line x1="23.5" y1="6.5" x2="25.6" y2="4.4" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 30 30" fill="currentColor"
+                    class="none night">
+                    <path
+                        d="M21.5 19.5C18.5 21.5 14.5 20.5 12 18C9.5 15.5 8.5 11.5 10.5 8.5C7 9.5 4.5 13 4.5 17C4.5 21.5 8 25 12.5 25C16.5 25 20 21.5 21 18C18 19 21.5 19.5 21.5 19.5Z" />
+                </svg>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="heading">
+            <h1 class="mainheading">Welcome to <span>Flash Card</span></h1>
+            <h3 class="mainh3">Accelerate your learning journey.</h3>
+            <p class="main-paragraph">
+                Create your own flashcards tailored to your learning style or explore a wide range of pre-made decks.
+                Organize, revise, and master any topic with ease.
+                Designed to make studying faster, smarter, and more effective.
+                Everything you need to turn effort into real understanding
+            </p>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <h1>Flash Cards</h1>
+                <p>
+                    Enhance your memory and retention with interactive flashcards designed for active recall. Create your own sets with important terms, definitions, formulas, or concepts, and review them anytime to strengthen understanding. Flashcards make revision faster, more engaging, and highly effective, helping you remember information for longer periods with consistent practice.
+                </p>
+            </div>
+            <div class="card">
+                <h1>
+                    Notes
+                </h1>
+                <p>
+                    Create and organize comprehensive notes that make learning simple and effective. Structure your
+                    content the way you like, break down complex topics into easy-to-understand sections, and keep
+                    everything in one place for quick access. Whether you're studying for exams or building long-term
+                    knowledge, your notes stay organized, editable, and always available whenever you need to revise.
+                </p>
+            </div>
+            <div class="card">
+                <h1>
+                    MCQ
+                </h1>
+                <p>
+                    Practice and test your knowledge with a wide range of multiple-choice questions. MCQs are perfect for identifying strengths and weaknesses, improving accuracy, and preparing for competitive exams. Get instant feedback on your answers and learn from mistakes, making each attempt a step forward in mastering the subject.
+                </p>
+            </div>
+            <div class="card">
+                <h1>
+                    Quizzes
+                </h1>
+                <p>
+                    Take your learning to the next level with dynamic and engaging quizzes. Combine different types of questions to challenge yourself and track your progress over time. Quizzes not only test your understanding but also help you apply what you've learned in a more interactive way, making studying less boring and more effective.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <nav class="options">
+            <ul>
+                <li>
+                    <div class="footerdiv">About Us</div>
+                </li>
+                <a href="main.html" style="text-decoration: none;" target="_blank">
+                    <li>
+                        <div class="footerdiv">Explore</div>
+                    </li>
+                </a>
+                <a href="contact.html" style="text-decoration: none;" target="_blank">
+                    <li>
+                        <div class="footerdiv">Contact us</div>
+                    </li>
+                </a>
+                <li>
+                    <div class="footerdiv">Earn with us</div>
+                </li>
+            </ul>
+        </nav>
+        <div class="Copyright">&copy; 2026 EduPro Academy. All Rights Reserved.</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
